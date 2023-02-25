@@ -10,7 +10,7 @@
         Background="Transparent"
         AllowsTransparency="True">
     
-    <Border Background="Black"
+    <Border Background="Purple"
             CornerRadius="20">
         <Grid>
             <Grid.ColumnDefinitions>
@@ -34,6 +34,19 @@
                              Height="50"
                              Foreground="White"
                              FontSize="14"
+                             Style="{StaticResource MenuButtonTheme}"
+                             />
+                <RadioButton Content="Discovery"
+                             Height="50"
+                             Foreground="White"
+                             FontSize="14"
+                             Style="{StaticResource MenuButtonTheme}"
+                             />
+                <RadioButton Content="Featured"
+                             Height="50"
+                             Foreground="White"
+                             FontSize="14"
+                             Style="{StaticResource MenuButtonTheme}"
                              />
             </StackPanel>
 
